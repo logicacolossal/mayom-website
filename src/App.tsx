@@ -1,8 +1,9 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { ThemeProvider } from "./components/theme-provider";
 import "./index.css";
+import "../languages/i18n";
 import { RootLayout } from "./pages/layout";
-import { HomePage } from "./pages/page";
+import { HomePage } from "./pages";
 
 function App() {
   return (
