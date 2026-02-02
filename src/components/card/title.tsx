@@ -11,7 +11,7 @@ export function CardTitle({
   return (
     <h2
       className={cn(
-        "text-2xl font-semibold text-center text-primary",
+        "text-xl font-semibold text-center text-primary md:text-2xl",
         className
       )}
     >

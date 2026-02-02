@@ -7,5 +7,5 @@ export function CardContent({
   children: React.ReactNode;
   className?: string;
 }) {
-  return <div className={cn("flex flex-col gap-4", className)}>{children}</div>;
+  return <div className={cn("flex flex-col gap-4 text-sm md:text-base", className)}>{children}</div>;
 }

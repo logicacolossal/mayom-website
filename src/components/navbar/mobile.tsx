@@ -7,13 +7,10 @@ export function MobileNavbar() {
   return (
     <div className="flex w-full justify-between items-center sm:hidden">
       <div className="flex flex-row gap-4 items-center">
-        <Link to="/" className="relative group">
-          <img
-            alt="colossus"
-            src={import.meta.env.BASE_URL + "/images/colossus-colored.svg"}
-            width={20}
-            height={80}
-          />
+        <Link to="/" className="relative group" aria-label="Go to the main page">
+          <span className="font-comfortaa text-4xl font-bold text-primary">
+            M
+          </span>
         </Link>
         <MobileNavigation />
         <a
