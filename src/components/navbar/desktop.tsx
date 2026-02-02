@@ -8,6 +8,7 @@ import {
 } from "../ui/navigation-menu";
 import { LanguageSwitcher } from "../language-switcher";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 
 export function DesktopNavbar() {
   const { t } = useTranslation("navbar");
@@ -15,11 +16,11 @@ export function DesktopNavbar() {
   return (
     <div className="justify-between hidden sm:flex sm:w-full text-foreground">
       <div className="h-full flex gap-4 items-center">
-        <a href="/" className="relative group" aria-label="Go to the main page">
+        <Link to="/" className="relative group" aria-label="Go to the main page">
           <span className="font-comfortaa text-4xl font-bold text-primary">
             M
           </span>
-        </a>
+        </Link>
 
         <NavigationMenu>
           <NavigationMenuList>
