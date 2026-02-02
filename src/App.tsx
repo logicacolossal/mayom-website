@@ -7,10 +7,10 @@ import { HomePage } from "./pages";
 function App() {
   return (
     <ThemeProvider defaultTheme="system" storageKey="mayom-website-theme">
-      <BrowserRouter>
+      <BrowserRouter basename="/mayom-website">
         <Routes>
           <Route path="/" element={<RootLayout />}>
-            <Route path="/" element={<HomePage />} />
+            <Route index element={<HomePage />} />
           </Route>
         </Routes>
       </BrowserRouter>

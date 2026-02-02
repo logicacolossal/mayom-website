@@ -1,3 +1,26 @@
 {
-  "title": "Home"
+  "title": "MAYOM",
+  "first-section": {
+    "title": "<bold>Manage Your Own Money</bold>, track your expenses, achieve your goals!",
+    "description": "<bold>MAYOM</bold> will help you manage your money better than the government",
+    "free": "Free and easy to use",
+    "plans": "See Plans & Pricing"
+  },
+  "second-section": {
+    "title": "How <title>MAYOM</title> is going to help you",
+    "cards": [
+      {
+        "title": "Control your money on debit, credit cards, broker and physical money",
+        "description": "With MAYOM you can track all of your expenses with records. You can make one account for each bank account that you have, and make records for each of you expenses or incomes, they can be unique or repeated each day, week, month, year for as long as you have them and change them when you need to."
+      },
+      {
+        "title": "With multicurrency accounts",
+        "description": "We support multicurrencies, each account can have any currency that the system supports and you can have a summary currency, which will show you approximately what your account is worth in that currency."
+      },
+      {
+        "title": "Track your goals",
+        "description": "Create and achieve your goals in a short, medium or long deadline and get a step closer to your financial growth every day!"
+      }
+    ]
+  }
 }

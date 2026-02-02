@@ -1,3 +1,26 @@
 {
-  "title": "Principal"
+  "title": "MAYOM",
+  "first-section": {
+    "title": "<bold>Gerencie seu Próprio Dinheiro</bold>, acompanhe suas despesas, alcançe seus objetivos!",
+    "description": "<bold>MAYOM</bold> te ajudará a gerenciar seu dinheiro melhor do que o governo",
+    "free": "Gratuito e fácil de usar",
+    "plans": "Ver Planos & Preços"
+  },
+  "second-section": {
+    "title": "Como <title>MAYOM</title> irá te ajudar",
+    "cards": [
+      {
+        "title": "Controle seu dinheiro nos cartões de débito, crédito, corretoras e dinheiro físico",
+        "description": "Com MAYOM, você pode acompanhar todas as suas despesas e registrá-las. Você pode criar uma conta para cada conta bancária que possui e registrar cada uma de suas despesas ou receitas. Esses registros podem ser únicos ou repetidos diariamente, semanalmente, mensalmente ou anualmente, pelo tempo que você precisar, e podem ser alterados sempre que necessário."
+      },
+      {
+        "title": "Com contas multimoedas",
+        "description": "Suportamos multimoedas, cada conta pode ter qualquer moeda compatível com o sistema, e você pode ter uma moeda de resumo, que mostrará aproximadamente o valor da sua conta nessa moeda."
+      },
+      {
+        "title": "Acompanhe seus objetivos",
+        "description": "Crie e alcance seus objetivos em prazos curtos, médios ou longos e fique um passo mais perto do seu crescimento financeiro a cada dia!"
+      }
+    ]
+  }
 }

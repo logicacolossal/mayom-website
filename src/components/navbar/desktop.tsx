@@ -25,7 +25,6 @@ export function DesktopNavbar() {
           <NavigationMenuList>
             <NavigationMenuItem>
               <NavigationMenuLink
-                href="https://google.com"
                 className={`${navigationMenuTriggerStyle()} text-xl bg-transparent`}
               >
                 {t("plans")}
@@ -33,7 +32,6 @@ export function DesktopNavbar() {
             </NavigationMenuItem>
             <NavigationMenuItem>
               <NavigationMenuLink
-                href="https://google.com"
                 className={`${navigationMenuTriggerStyle()} text-xl bg-transparent`}
               >
                 {t("features")}
@@ -41,7 +39,6 @@ export function DesktopNavbar() {
             </NavigationMenuItem>
             <NavigationMenuItem>
               <NavigationMenuLink
-                href="https://google.com"
                 className={`${navigationMenuTriggerStyle()} text-xl bg-transparent`}
               >
                 {t("about")}
