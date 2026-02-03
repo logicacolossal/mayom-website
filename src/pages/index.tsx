@@ -9,9 +9,9 @@ export function HomePage() {
   return (
     <div className="text-foreground">
       <div className="min-h-[calc(100dvh-5rem)] flex flex-col items-center">
-        <div className="flex flex-col items-center w-full justify-center md:w-3/4">
-          <div className="bg-linear-to-br from-background from-50% p-4 to-primary/20 min-h-[calc(100dvh-5rem)] flex flex-col gap-12 w-full justify-center md:p-8">
-            <div className="flex flex-col-reverse items-center w-full justify-center md:flex-row">
+        <div className="flex flex-col items-center w-full justify-center">
+          <div className="bg-linear-to-br from-background from-50% p-4 to-primary/20 min-h-[calc(100dvh-5rem)] flex flex-col gap-12 w-full justify-center items-center md:p-8">
+            <div className="flex flex-col-reverse items-center w-full justify-center md:flex-row md:w-3/4">
               <div className="flex flex-col gap-8">
                 <h1 className="text-3xl font-quicksand text-primary block leading-tight md:text-6xl">
                   <Trans
@@ -33,7 +33,7 @@ export function HomePage() {
                 width={1920}
               />
             </div>
-            <div className="w-full flex flex-col gap-4 items-center md:flex-row">
+            <div className="flex flex-col gap-4 items-center md:flex-row">
               <span className="text-accent font-bold">
                 {t("first-section.free")}
               </span>
@@ -43,28 +43,30 @@ export function HomePage() {
             </div>
           </div>
           <Separator />
-          <div className="bg-linear-to-bl from-primary/20 to-background to-50% p-4 flex flex-col gap-12 w-full md:p-8">
-            <h1 className="text-2xl text-center md:text-5xl">
-              <Trans
-                defaults={t("second-section.title")}
-                components={{
-                  title: (
-                    <span className="bg-linear-to-tr font-bold bg-clip-text from-primary to-secondary text-transparent" />
-                  ),
-                }}
-              />
-            </h1>
-            <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
-              {cardsArr.map((i) => (
-                <Card>
-                  <Card.Content>
-                    <Card.Title>
-                      {t(`second-section.cards.${i}.title`)}
-                    </Card.Title>
-                    <span>{t(`second-section.cards.${i}.description`)}</span>
-                  </Card.Content>
-                </Card>
-              ))}
+          <div className="bg-linear-to-bl from-primary/20 to-background to-50% p-4 flex flex-col items-center w-full md:p-8">
+            <div className="flex flex-col gap-12 md:w-3/4">
+              <h1 className="text-2xl text-center md:text-5xl">
+                <Trans
+                  defaults={t("second-section.title")}
+                  components={{
+                    title: (
+                      <span className="bg-linear-to-tr font-bold bg-clip-text from-primary to-secondary text-transparent" />
+                    ),
+                  }}
+                />
+              </h1>
+              <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
+                {cardsArr.map((i) => (
+                  <Card>
+                    <Card.Content>
+                      <Card.Title>
+                        {t(`second-section.cards.${i}.title`)}
+                      </Card.Title>
+                      <span>{t(`second-section.cards.${i}.description`)}</span>
+                    </Card.Content>
+                  </Card>
+                ))}
+              </div>
             </div>
           </div>
         </div>
